@@ -120,24 +120,29 @@ Low < Average < High
 
 Accuracy: 1.0
 
-Classification report:
-              precision    recall  f1-score   support
+```markdown
+### Classification Report
 
-         0.0       1.00      1.00      1.00        36
-         1.0       1.00      1.00      1.00        40
-         2.0       1.00      1.00      1.00        26
-
-    accuracy                           1.00       102
-   macro avg       1.00      1.00      1.00       102
-weighted avg       1.00      1.00      1.00       102
+| Class | Precision | Recall | F1-score | Support |
+|---|---:|---:|---:|---:|
+| Low | 1.00 | 1.00 | 1.00 | 36 |
+| Average | 1.00 | 1.00 | 1.00 | 40 |
+| High | 1.00 | 1.00 | 1.00 | 26 |
+| **Accuracy** |  |  | **1.00** | **102** |
+| **Macro avg** | **1.00** | **1.00** | **1.00** | **102** |
+| **Weighted avg** | **1.00** | **1.00** | **1.00** | **102** |
 ```
 
 ### Confusion Matrix
 
-```text
-[[64  0  0]
- [ 1 54  5]
- [ 0  1 45]]
+```markdown
+### Confusion Matrix
+
+| Actual \ Predicted | Low| Average| High |
+|---|---:|---:|---:|
+| **Low** | 36 | 0 | 0 |
+| **Average** | 0 | 40 | 0 |
+| **High** | 0 | 0 | 26 |
 ```
 
 
