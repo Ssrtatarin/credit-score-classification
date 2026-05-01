@@ -114,13 +114,13 @@ Low < Average < High
 
 Лучший результат по основным метрикам показала модель **RandomForestClassifier**.
 
+```markdown
 ## KNN Evaluation
 
-Для KNN я отедльно разделил датасет на train/test split ради эксеримента.
+Для KNN я отдельно разделил датасет на train/test split ради эксперимента.
 
-Accuracy: 1.0
+**Accuracy:** `1.00`
 
-```markdown
 ### Classification Report
 
 | Class | Precision | Recall | F1-score | Support |
@@ -131,19 +131,14 @@ Accuracy: 1.0
 | **Accuracy** |  |  | **1.00** | **102** |
 | **Macro avg** | **1.00** | **1.00** | **1.00** | **102** |
 | **Weighted avg** | **1.00** | **1.00** | **1.00** | **102** |
-```
 
 ### Confusion Matrix
 
-```markdown
-### Confusion Matrix
-
-| Actual \ Predicted | Low| Average| High |
+| Actual \ Predicted | Low | Average | High |
 |---|---:|---:|---:|
 | **Low** | 36 | 0 | 0 |
 | **Average** | 0 | 40 | 0 |
 | **High** | 0 | 0 | 26 |
-```
 
 
 ## Структура проекта
